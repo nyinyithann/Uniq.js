@@ -1,0 +1,43 @@
+import Uniq from './uniq.core';
+import difference from './uniq.difference';
+import empty from './uniq.empty';
+import every from './uniq.every';
+import exists from './uniq.exists';
+import filter from './uniq.filter';
+import fold from './uniq.fold';
+import foldRight from './uniq.foldRight';
+import intersect from './uniq.intersect';
+import isEmpty from './uniq.isEmpty';
+import isProperSubsetOf from './uniq.isProperSubsetOf';
+import isProperSupersetOf from './uniq.isProperSupersetOf';
+import isSubsetOf from './uniq.isSubsetOf';
+import isSupersetOf from './uniq.isSupersetOf';
+import map from './uniq.map';
+import of from './uniq.of';
+import partition from './uniq.partition';
+import toArray from './uniq.toArray';
+import toMap from './uniq.toMap';
+import union from './uniq.union';
+
+Uniq.empty = empty;
+Uniq.of = of;
+
+Uniq.prototype.isEmpty = isEmpty;
+Uniq.prototype.exists = exists;
+Uniq.prototype.filter = filter;
+Uniq.prototype.map = map;
+Uniq.prototype.fold = fold;
+Uniq.prototype.foldRight = foldRight;
+Uniq.prototype.every = every;
+Uniq.prototype.partition = partition;
+Uniq.prototype.toArray = toArray;
+Uniq.prototype.toMap = toMap;
+Uniq.prototype.intersect = intersect;
+Uniq.prototype.isProperSubsetOf = isProperSubsetOf;
+Uniq.prototype.isProperSupersetOf = isProperSupersetOf;
+Uniq.prototype.isSubsetOf = isSubsetOf;
+Uniq.prototype.isSupersetOf = isSupersetOf;
+Uniq.prototype.union = union;
+Uniq.prototype.difference = difference;
+
+export { Uniq };

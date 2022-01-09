@@ -1,4 +1,4 @@
-# Uniq.js 
+# Uniq.js [![Node.js CI](https://github.com/nyinyithann/Uniq.js/actions/workflows/node.js.yml/badge.svg)](https://github.com/nyinyithann/Uniq.js/actions/workflows/node.js.yml)
 
 Uniq.js is a JavaScript library for nodeJS and browser. Uniq.js extends JavaScript Set. The library is heavily inspired and influenced by F# Set module.
 
